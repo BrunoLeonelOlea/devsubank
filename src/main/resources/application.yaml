@@ -1,13 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
-    username:
-    password:
+    url: jdbc:mysql://localhost:3306/devsu
+    username: root
+    password: topline0
   jpa:
     hibernate:
       ddl-auto: none
-    open-in-view: false
     properties:
       hibernate:
         show_sql: true
